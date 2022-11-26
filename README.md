@@ -1,15 +1,14 @@
 <h1 align="center">Hola 👋 soy, Jhon Sanchez</h1>
 <h3 align="center">Un apasionado desarrollador de Colombia</h3>
 
-<p align="left"> <img src="https: //komarev.com/ghpvc/?username=jhon-nano&label=Profile%20views&color=0e75b6&style=flat" alt="jhon-nano" /> </p>
 
 - 🔭 Actualmente estoy trabajando en [Code Lines](https:/ /main.d27hgl0f7yids9.amplifyapp.com/)
 
 - 🌱 Actualmente estoy aprendiendo **AWS,Nexjs, Material Ui, Amplify**
 
-- 👯 Estoy buscando colaborar en **Proyectos React,Next**
+- 👯 Estoy buscando colaborar en **Proyectos React,Next,**
 
-- 🤝 Estoy buscando ayuda con **Proyectos React**
+- 🤝 Estoy buscando ayuda con **Proyectos React,Next**
 
 - 👨‍💻 Todos mis proyectos están disponibles en [https://main.d27hgl0f7yids9.amplifyapp.com/](https://main.d27hgl0f7yids9.amplifyapp.com/)
 
