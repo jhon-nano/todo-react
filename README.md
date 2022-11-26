@@ -43,7 +43,7 @@
 <p align="left"> 
 
 <a href="https://aws.amazon.com/amplify/" target="_blank" rel="noreferrer"> 
-<img src="https://docs.amplify.aws/assets/logo-dark.svg" alt="amplificar" ancho="40" altura="40"/>
+<img src="https://docs.amplify.aws/assets/logo-dark.svg" alt="amplificar" ancho="20" altura="20"/>
 </a> 
 
 <a href="https://aws.amazon.com" target="_blank " rel="noreferrer"> 
