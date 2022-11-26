@@ -22,6 +22,7 @@
 <h3 align= "left">Conéctate conmigo:</h3>
 
 <p align="left">
+
 <a href="https://linkedin.com/in/jhonsanchez1601" target="blank">
 <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jhonsanchez1601" height="30 " width="40" />
 </a>
@@ -30,10 +31,13 @@
 <img align="center" src="https://www.vectorlogo.zone/logos/facebook/facebook-tile.svg" alt="jnsanchezv" height="30" width="40" />
 </a>
 
-<a href="https://instagram.com/jhonsanchez1601" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator /master/src/images/icons/Social/instagram.svg" alt="jhonsanchez1601" height="30" width="40" /></a>
+<a href="https://instagram.com/jhonsanchez1601" target="blank">
+<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator /master/src/images/icons/Social/instagram.svg" alt="jhonsanchez1601" height="30" width="40" /></a>
 </p>
 
-<a href="https://wa.me/+573137663557" target="blank"><img align="center" src="https://www.vectorlogo.zone/logos/whatsapp/whatsapp-tile.svg" alt="+573137663557" height="30" width="40" /></a>
+<a href="https://wa.me/+573137663555" target="blank">
+<img align="center" src="https://www.vectorlogo.zone/logos/whatsapp/whatsapp-tile.svg" alt="+573137663555" height="30" width="40" /></a>
+
 </p>
 
 
