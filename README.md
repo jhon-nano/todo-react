@@ -27,7 +27,7 @@
 </a>
 
 <a href="https://fb.com/jnsanchezv" target="blank">
-<img align="center" src="https://raw.githubusercontent .com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="jnsanchezv" height="30" width="40" />
+<img align="center" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="jnsanchezv" height="30" width="40" />
 </a>
 
 <a href="https://instagram.com/jhonsanchez1601" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator /master/src/images/icons/Social/instagram.svg" alt="jhonsanchez1601" height="30" width="40" /></a>
