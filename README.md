@@ -33,6 +33,11 @@
 <a href="https://instagram.com/jhonsanchez1601" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator /master/src/images/icons/Social/instagram.svg" alt="jhonsanchez1601" height="30" width="40" /></a>
 </p>
 
+<a href="https://wa.me/+573137663557" target="blank"><img align="center" src="https://www.vectorlogo.zone/logos/whatsapp/whatsapp-tile.svg" alt="+573137663557" height="30" width="40" /></a>
+</p>
+
+
+
 <h3 align="left">Idiomas y Herramientas:</h3>
 
 <p align="left"> 
