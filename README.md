@@ -47,7 +47,7 @@
 </a> 
 
 <a href="https://aws.amazon.com" target="_blank " rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> 
+<img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="aws" width="40" height="40"/> 
 </a> 
 
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> 
@@ -63,7 +63,7 @@
 </a> 
 
 <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master /icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="mongodb" width="40" height="40"/>
  </a> 
 
 <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
