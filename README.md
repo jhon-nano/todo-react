@@ -20,9 +20,16 @@
 - 📄 Conoce mis experiencias [https://main.d27hgl0f7yids9.amplifyapp.com/](https://main.d27hgl0f7yids9.amplifyapp.com/)
 
 <h3 align= "left">Conéctate conmigo:</h3>
+
 <p align="left">
-<a href="https://linkedin.com/in/jhonsanchez1601" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jhonsanchez1601" height="30 " width="40" /></a>
-<a href="https://fb.com/jnsanchezv" target="blank"><img align="center" src="https://raw.githubusercontent .com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="jnsanchezv" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/jhonsanchez1601" target="blank">
+<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jhonsanchez1601" height="30 " width="40" />
+</a>
+
+<a href="https://fb.com/jnsanchezv" target="blank">
+<img align="center" src="https://raw.githubusercontent .com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="jnsanchezv" height="30" width="40" />
+</a>
+
 <a href="https://instagram.com/jhonsanchez1601" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator /master/src/images/icons/Social/instagram.svg" alt="jhonsanchez1601" height="30" width="40" /></a>
 </p>
 
@@ -31,7 +38,7 @@
 <p align="left"> 
 
 <a href="https://aws.amazon.com/amplify/" target="_blank" rel="noreferrer"> 
-<img src="https://docs.amplify. aws/assets/logo-dark.svg" alt="amplificar" ancho="40" altura="40"/>
+<img src="https://docs.amplify.aws/assets/logo-dark.svg" alt="amplificar" ancho="40" altura="40"/>
 </a> 
 
 <a href="https://aws.amazon.com" target="_blank " rel="noreferrer"> 
