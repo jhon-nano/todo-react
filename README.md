@@ -27,7 +27,7 @@
 </a>
 
 <a href="https://fb.com/jnsanchezv" target="blank">
-<img align="center" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="jnsanchezv" height="30" width="40" />
+<img align="center" src="https://www.vectorlogo.zone/logos/facebook/facebook-tile.svg" alt="jnsanchezv" height="30" width="40" />
 </a>
 
 <a href="https://instagram.com/jhonsanchez1601" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator /master/src/images/icons/Social/instagram.svg" alt="jhonsanchez1601" height="30" width="40" /></a>
@@ -46,7 +46,7 @@
 </a> 
 
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> 
-<img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> 
+<img src="/https://www.vectorlogo.zone/logosfigma/figma-icon.svg" alt="figma" width="40" height="40"/> 
 </a> 
 
 <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> 
