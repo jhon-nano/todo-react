@@ -27,8 +27,8 @@ import { Code, GitHub, Instagram, LinkedIn } from "@mui/icons-material";
 import { Chip, Grow, Paper, Typography } from "@mui/material";
 import Typewriter from "typewriter-effect";
 import AppBarTodo from "./components/AppBarTodo";
-import CardTask from "./components/CardTask";
-import CreateTaks from "./components/CreateTaks";
+import CardTodo from "./components/CardTodo";
+import CreateTodo from "./components/CreateTodo";
 
 // https://github.com/tailwindlabs/tailwindcss/blob/master/colors.js#L244
 const coolGray = {
@@ -45,23 +45,49 @@ const coolGray = {
 };
 
 const GlobalTheme = () => {
+
+
+  const [search, setSearch] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  const [tasks, setTasks] = useState([]);
-  const [search, setSearch] = useState([]);
-  console.log("sear", search);
+  const [todos, setTodos] = useState([]);
 
-  function onCompleted(task) {
+ 
+
+  function onCompleted(todo) {
     setLoading(true);
     setTimeout(() => {
-      const dataUpdate = [...tasks];
-      const index = tasks.findIndex((e) => e.title === task.title);
-      task.completed = true;
-      dataUpdate[index] = task;
-      setTasks([...dataUpdate]);
+      const dataUpdate = [...todos];
+      const index = todos.findIndex((e) => e.title === todo.title);
+      todo.completed = true;
+      dataUpdate[index] = todo;
+      setTodos([...dataUpdate]);
       setLoading(false);
     }, 1000);
   }
+
+  function searchTask(event) {
+    var text = event.target.value;
+    console.log(text);
+    const newData = todos.filter(function (item) {
+      const itemDataTitle = item.title.toUpperCase();
+
+      const campo = itemDataTitle;
+      const textData = text.toUpperCase();
+      return campo.indexOf(textData) > -1;
+    });
+    console.log(newData);
+
+    if (text.length === 0) {
+      setSearch([]);
+    } else if (newData.length > 0) {
+      setSearch(newData);
+    } else if (newData.length === 0 && text.length > 0) {
+      setSearch(null);
+    }
+  }
+
+
 
   return (
     <ThemeProvider
@@ -219,9 +245,9 @@ const GlobalTheme = () => {
           <CssBaseline />
           <Header>
             <AppBarTodo
-              tasks={tasks}
-              setTasks={setTasks}
+              search={search}
               setSearch={setSearch}
+              searchTask={searchTask}
             />
           </Header>
           <EdgeSidebar anchor="left">
@@ -264,10 +290,10 @@ const GlobalTheme = () => {
               disableGutters
               rightSidebar={
                 <InsetSidebar sx={{ p: 2, height: "100%" }}>
-                  <CreateTaks
+                  <CreateTodo
                     loading={loading}
                     setLoading={setLoading}
-                    setTasks={setTasks}
+                    setTasks={setTodos}
                   />
                 </InsetSidebar>
               }
@@ -345,9 +371,9 @@ const GlobalTheme = () => {
                         {...(true ? { timeout: 1500 } : {})}
                       >
                         <Grid item xs={12} sm={6} md={4}>
-                          <CardTask
-                            tasks={tasks}
-                            setTasks={setTasks}
+                          <CardTodo
+                            tasks={todos}
+                            setTasks={setTodos}
                             task={task}
                             loading={loading}
                             setLoading={setLoading}
@@ -357,7 +383,7 @@ const GlobalTheme = () => {
                     ))
                   ) : (
                     <Fragment>
-                      {tasks.map((task, index) => (
+                      {todos.map((task, index) => (
                         <Grow
                           key={index}
                           in={true}
@@ -365,9 +391,9 @@ const GlobalTheme = () => {
                           {...(true ? { timeout: 1500 } : {})}
                         >
                           <Grid item xs={12} sm={6} md={4}>
-                            <CardTask
-                              tasks={tasks}
-                              setTasks={setTasks}
+                            <CardTodo
+                              tasks={todos}
+                              setTasks={setTodos}
                               task={task}
                               loading={loading}
                               setLoading={setLoading}
@@ -378,7 +404,7 @@ const GlobalTheme = () => {
                       ))}
                       {[
                         ...Array(
-                          6 - tasks.length < 0 ? 0 : 6 - tasks.length
+                          6 - todos.length < 0 ? 0 : 6 - todos.length
                         ).fill(undefined),
                       ].map((task, index) => (
                         <Grow

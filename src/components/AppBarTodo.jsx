@@ -51,30 +51,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-export default function AppBarTodo({ tasks, setSearch }) {
-  
-  
-  function searchTask(event) {
-    var text = event.target.value;
-    console.log(text);
-    const newData = tasks.filter(function (item) {
-      const itemDataTitle = item.title.toUpperCase();
-
-      const campo = itemDataTitle;
-      const textData = text.toUpperCase();
-      return campo.indexOf(textData) > -1;
-    });
-    console.log(newData);
-
-    if (text.length === 0) {
-      setSearch([]);
-    } else if (newData.length > 0) {
-      setSearch(newData);
-    } else if (newData.length === 0 && text.length > 0) {
-      setSearch(null);
-    }
-  }
-
+export default function AppBarTodo({ searchTask }) {
   return (
     <Box
       sx={{
@@ -103,7 +80,7 @@ export default function AppBarTodo({ tasks, setSearch }) {
             autoStart: true,
           }}
           onInit={(typewriter) => {
-            typewriter.typeString("MY TASKS").pauseFor(2500).start();
+            typewriter.typeString("MY TODOS").pauseFor(2500).start();
           }}
         />
       </Typography>

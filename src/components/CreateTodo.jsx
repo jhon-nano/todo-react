@@ -4,7 +4,7 @@ import { LoadingButton } from "@mui/lab";
 import { Avatar, TextField, Typography } from "@mui/material";
 import Typewriter from "typewriter-effect";
 
-export default function CreateTaks({ loading, setLoading, setTasks }) {
+export default function CreateTodo({ loading, setLoading, setTasks }) {
   const [name, setName] = React.useState("Cat in the Hat");
   const handleChange = (event) => {
     setName(event.target.value);
@@ -28,7 +28,7 @@ export default function CreateTaks({ loading, setLoading, setTasks }) {
             loop: true,
           }}
           onInit={(typewriter) => {
-            typewriter.typeString("New Task").pauseFor(2500).start();
+            typewriter.typeString("New Todo").pauseFor(2500).start();
           }}
         />
       </Typography>

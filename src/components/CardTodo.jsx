@@ -4,7 +4,7 @@ import { Card, CardHeader, IconButton, List, TextField } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 
-export default function CardTask({ task, loading, onCompleted }) {
+export default function CardTodo({ task, loading, onCompleted }) {
   return (
     <Card
       variant="outlined"
@@ -49,7 +49,7 @@ export default function CardTask({ task, loading, onCompleted }) {
           fullWidth
           variant="contained"
         >
-          Completed Task
+          Completed Todo
         </LoadingButton>
       </Box>
     </Card>
