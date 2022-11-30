@@ -10,6 +10,14 @@
       "StackName": "amplify-todoreact-dev-202432",
       "StackId": "arn:aws:cloudformation:us-east-1:409193214203:stack/amplify-todoreact-dev-202432/c5fb3200-704d-11ed-a3cf-0a4ef95939fb",
       "AmplifyAppId": "d10iabjp3dy7u2"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d10iabjp3dy7u2",
+          "type": "cicd"
+        }
+      }
     }
   }
 }
