@@ -1,24 +1,20 @@
 import {
   Button,
   DialogActions,
-  DialogContent,
-  DialogContentText,
-  DialogTitle,
+  DialogContent, DialogTitle,
   Paper,
-  TextField,
+  TextField
 } from "@mui/material";
 import React from "react";
 import { Controller, useForm } from "react-hook-form";
-import { TodoContext } from "../Context";
 
-function TodoFormDialog() {
+function TodoFormDialog({ addTodo, setOpenModal}) {
   const {
     control,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
-  const { addTodo, setOpenModal } = React.useContext(TodoContext);
 
   const onCancel = () => {
     setOpenModal(false);

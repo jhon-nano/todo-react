@@ -4,7 +4,7 @@ import {
   CardHeader,
   Grid,
   Grow,
-  Skeleton,
+  Skeleton
 } from "@mui/material";
 import React from "react";
 

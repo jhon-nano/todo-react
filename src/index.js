@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './Layouts/index.js';
+import {AppUI} from './Layouts/index';
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  <AppUI />,
   document.getElementById('root')
 );
