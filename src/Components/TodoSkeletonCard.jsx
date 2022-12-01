@@ -8,8 +8,8 @@ import {
 } from "@mui/material";
 import React from "react";
 
-export default function TodoSkeletonCard() {
-  return [...Array(6).fill(undefined)].map((task, index) => (
+export default function TodoSkeletonCard({index}) {
+  return [...Array(index).fill(undefined)].map((task, index) => (
     <Grow
       key={index}
       in={true}

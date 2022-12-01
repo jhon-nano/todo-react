@@ -53,6 +53,23 @@ function AppUI() {
     setOpenModal,
   } = React.useContext(TodoContext);
 
+
+  let index_skeleton = 9
+
+  function skeletonIndex() {
+    let index = searchedTodos.length;
+
+    console.log(typeof index);
+
+    if (index > index_skeleton) {
+      index = 0;
+    } else {
+      index = Number(index_skeleton - index );
+    }
+    console.log(index);
+    return Number(index);
+  }
+
   return (
     <ThemeProvider
       theme={createTheme({
@@ -258,7 +275,6 @@ function AppUI() {
 
           <Content>
             <InsetContainer
-              maxWidth={true}
               disableGutters
               sx={{
                 borderBottomLeftRadius: 20,
@@ -270,7 +286,9 @@ function AppUI() {
               <Grid container>
                 {error && <p>Desespérate, hubo un error...</p>}
                 {loading && <p>Estamos cargando, no desesperes...</p>}
-                {!loading && !searchedTodos.length && <TodoSkeleton />}
+                {!loading && !searchedTodos.length && (
+                  <TodoSkeleton index={index_skeleton} />
+                )}
 
                 {searchedTodos.map((todo, index) => (
                   <Grow
@@ -290,6 +308,9 @@ function AppUI() {
                     </Grid>
                   </Grow>
                 ))}
+                {!loading && searchedTodos.length && (
+                  <TodoSkeleton index={skeletonIndex()} />
+                )}
               </Grid>
 
               {!!openModal && (

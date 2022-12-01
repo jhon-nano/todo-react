@@ -50,7 +50,7 @@ function TodoFormDialog() {
                 helperText={
                   errors.text
                     ? errors.text.message
-                    : "Pendiente Llamar al Primo.."
+                    : "Sugerencia: Pendiente Llamar al Primo.."
                 }
               />
             )}
