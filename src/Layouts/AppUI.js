@@ -56,17 +56,14 @@ function AppUI() {
 
   let index_skeleton = 9
 
+  
   function skeletonIndex() {
     let index = searchedTodos.length;
-
-    console.log(typeof index);
-
     if (index > index_skeleton) {
       index = 0;
     } else {
       index = Number(index_skeleton - index );
     }
-    console.log(index);
     return Number(index);
   }
 
