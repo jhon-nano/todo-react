@@ -8,6 +8,7 @@ import InputBase from "@mui/material/InputBase";
 import Typography from "@mui/material/Typography";
 
 import Typewriter from "typewriter-effect";
+import { TodoContext } from "../Context";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -51,7 +52,16 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-export default function AppBarTodo({ searchTask }) {
+export default function AppBarTodo() {
+
+    const { searchValue, setSearchValue } = React.useContext(TodoContext);
+  
+    const onSearchValueChange = (event) => {
+      console.log(event.target.value);
+      setSearchValue(event.target.value);
+    };
+
+
   return (
     <Box
       sx={{
@@ -80,10 +90,11 @@ export default function AppBarTodo({ searchTask }) {
             autoStart: true,
           }}
           onInit={(typewriter) => {
-            typewriter.typeString("MY TODOS").pauseFor(2500).start();
+            typewriter.typeString("MIS TODOS").pauseFor(2500).start();
           }}
         />
       </Typography>
+
       <Search>
         <SearchIconWrapper>
           <SearchIcon color="secondary" />
@@ -91,7 +102,8 @@ export default function AppBarTodo({ searchTask }) {
         <StyledInputBase
           placeholder="Search Task..."
           inputProps={{ "aria-label": "search" }}
-          onChange={(e) => searchTask(e)}
+          value={searchValue}
+          onChange={onSearchValueChange}
         />
       </Search>
     </Box>
